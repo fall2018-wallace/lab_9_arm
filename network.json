@@ -13,6 +13,11 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [],
+            "source": "json.csv",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -26,6 +31,6 @@
             "name": "json.csv"
         }
     ],
-    "updated_at": "2018-11-07 19:57:30",
+    "updated_at": "2018-11-07 19:57:48",
     "url": "https://github.com/fall2018-wallace/lab_9_arm"
 }

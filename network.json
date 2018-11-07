@@ -24,8 +24,11 @@
             "desc": "This is the main code",
             "name": "asm.R",
             "task_status": "completed"
+        },
+        {
+            "name": "hotelSurveyBarriot.csv"
         }
     ],
-    "updated_at": "2018-11-07 20:12:16",
+    "updated_at": "2018-11-07 20:12:29",
     "url": "https://github.com/fall2018-wallace/lab_9_arm"
 }

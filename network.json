@@ -11,26 +11,29 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "asm.R",
             "target": "data.csv"
         },
         {
             "ports": [],
             "source": "json.csv",
-            "target": "clean.R"
+            "target": "asm.R"
         }
     ],
     "nodes": [
-        {
-            "name": "clean.R"
-        },
         {
             "name": "data.csv"
         },
         {
             "name": "json.csv"
+        },
+        {
+            "assigned_to": "arun468",
+            "desc": "This is the main code",
+            "name": "asm.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-07 19:57:48",
+    "updated_at": "2018-11-07 19:59:10",
     "url": "https://github.com/fall2018-wallace/lab_9_arm"
 }

@@ -13,16 +13,6 @@
             ],
             "source": "asm.R",
             "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "hotelSurvey<- fromJSON('hotelSurveyBarriot.json', simplify = TRUE , nullValue = NA)",
-                    "type": "csv"
-                }
-            ],
-            "source": "hotelsurvey.csv",
-            "target": "asm.R"
         }
     ],
     "nodes": [
@@ -34,11 +24,8 @@
             "desc": "This is the main code",
             "name": "asm.R",
             "task_status": "completed"
-        },
-        {
-            "name": "hotelsurvey.csv"
         }
     ],
-    "updated_at": "2018-11-07 20:01:37",
+    "updated_at": "2018-11-07 20:02:36",
     "url": "https://github.com/fall2018-wallace/lab_9_arm"
 }
